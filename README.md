@@ -35,10 +35,11 @@ mvn test
 ## Improvements
 
 - Data can be parameterised using examples.
-- Properties file can e used to parameterise the tests
-- Multiple browser support can be enabled
+- Properties file can be used to externalise the hard coded parameters like selenium waits.
+- Cross browser/plaform support can be enabled.
 - Faker Utility (https://github.com/DiUS/java-faker) can be used to generate coomoon data at runtime.
 - External reporting liabraries Extent Report(https://www.extentreports.com/) can be used for better reporting.
 - Multiple utilities can be created to reuse like parallel execution, Email Functionality, Jira connectivity, external testData reader etc.
 - Tests can be executed parallel and on cross browser by integrating wih Selenium GRID, Saucelab,BrwoserStack.
-- Tests can be integrated with devops tools like jenkins, Azure Devops to run parallel
+- Tests can be integrated with devops tools like jenkins, Azure Devops to run in pipeline and in scheudled environment.
+- 
